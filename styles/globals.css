@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary text-primary text-2xl;
+  }
+  .h2 {
+    @apply text-[46px] font-medium leading-tight;
+  }
+  .btn {
+    @apply h-[62px] flex justify-center items-center py-3 px-8 rounded-full text-[20px] transition-all;
+  }
+  .btn-outline {
+    @apply bg-transparent border-2 hover:bg-transparent;
+  }
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-hover;
+  }
+  .btn-orange {
+    @apply bg-orange text-white hover:bg-orange-hover;
+  }
+  .serviceSlider .swiper-button-prev,
+  .serviceSlider .swiper-button-next {
+    @apply bg-primary text-white top-[95%] w-[123px] h-[46px] rounded-[50%] z-20;
+  }
+  .serviceSlider .swiper-button-prev {
+    @apply left-[23%] md:left-[35%] lg:left-[40%];
+  }
+  .serviceSlider .swiper-button-next {
+    @apply right-[23%] md:right-[35%] lg:right-[40%];
+  }
+  .serviceSlider .swiper-button-prev:after,
+  .serviceSlider .swiper-button-next:after {
+    @apply text-lg;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "petshop-landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.0.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "react-icons": "^4.7.1",
+    "swiper": "^8.4.5",
+    "tailwindcss": "^3.2.4"
+  }
+}
