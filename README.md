@@ -1,6 +1,6 @@
 ## Description
 
-This project is a pet shop themed landing page builded using NextJS 13 and Tailwind. It also features or presents a self-adjustment to different window sizes.
+This project is a pet shop themed landing page builded using NextJS 13 and Tailwind. It also presents a self-adjustment feature to different window sizes.
 
 ![image](https://github.com/ricichien/nextjs-petshop/assets/85197053/b1cbeb69-dd3e-4179-b8f1-498e358946b6)
 
