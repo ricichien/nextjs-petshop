@@ -1,3 +1,22 @@
+## Description
+
+This project is a pet shop themed landing page builded using NextJS 13 and Tailwind. It also features or presents a self-adjustment to different window sizes.
+
+![image](https://github.com/ricichien/nextjs-petshop/assets/85197053/b1cbeb69-dd3e-4179-b8f1-498e358946b6)
+
+<details>
+  <summary>Self-adjustment example with a different sized window</summary>
+  <p></p>
+  
+  ![image](https://github.com/ricichien/nextjs-petshop/assets/85197053/b52d93b3-759b-4e2f-9ddb-d4cae8321d93)
+  
+</details>
+
+## Stack and Tools
+* [Tailwind](https://tailwindcss.com/)
+* [React](https://reactjs.org/)
+* [NextJS](https://nextjs.org/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
