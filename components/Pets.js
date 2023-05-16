@@ -135,14 +135,14 @@ const Pets = () => {
                   <div
                     onClick={() => {
                       getPetDetails(pet.id);
-                      setPetDetails(index);
+                      setPetIndex(index);
                     }}
                     className="cursor-pointer relative"
                     key={index}
                   >
                     {/* overlay */}
                     <div
-                      className={`bg-black/40 w-full absolute rounded-full ${
+                      className={`w-full h-full absolute rounded-full ${
                         petIndex === index
                           ? "border-2 border-white"
                           : "bg-black/40"
